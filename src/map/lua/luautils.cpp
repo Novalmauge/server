@@ -1396,7 +1396,6 @@ namespace luautils
         });
     }
 
-    // Update Sanraku's Interests and Recommended Fauna
     void UpdateSanrakusMobs()
     {
         auto UpdateSanrakusMobs = lua["xi"]["znm"]["UpdateSanrakusMobs"];
@@ -1410,7 +1409,6 @@ namespace luautils
         UpdateSanrakusMobs();
     }
 
-    // Decreases the cost of ZNM pop items over time
     void ZNMPopPriceDecay()
     {
         auto ZNMPopPriceDecay = lua["xi"]["znm"]["ZNMPopPriceDecay"];
@@ -1424,11 +1422,6 @@ namespace luautils
         ZNMPopPriceDecay();
     }
 
-    /************************************************************************
-     *                                                                       *
-     *    Return Vanadiel Time                                               *
-     *                                                                       *
-     ************************************************************************/
     uint32 VanadielTime()
     {
         TracyZoneScoped;
