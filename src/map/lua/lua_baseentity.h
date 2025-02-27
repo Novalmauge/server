@@ -651,6 +651,7 @@ public:
     void  updateEnmityFromCure(CLuaBaseEntity* PEntity, int32 amount, sol::object const& fixedCE, sol::object const& fixedVE);
     void  resetEnmity(CLuaBaseEntity* PEntity);
     void  updateClaim(sol::object const& entity);
+    bool  hasClaim(CBattleEntity* PTarget);
     bool  hasEnmity();
     auto  getNotorietyList() -> sol::table;
     void  setClaimable(bool claimable);

@@ -2751,6 +2751,12 @@ function CBaseEntity:updateClaim(entity)
 end
 
 ---@nodiscard
+---@param entity CBaseEntity
+---@return boolean
+function CBaseEntity:hasClaim(entity)
+end
+
+---@nodiscard
 ---@return boolean
 function CBaseEntity:hasEnmity()
 end
